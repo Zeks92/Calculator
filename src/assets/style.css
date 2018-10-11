@@ -1,0 +1,165 @@
+
+html{
+   font-size:62.5%;
+}
+
+body{
+  background-color:#99b3ff;
+}
+
+header {
+  margin: 2.5rem auto;
+  text-align: center;
+}
+
+header{
+  font-size: 1.8rem;
+  font-family:'Merriweather';
+}
+header:hover {
+  color:#fff;
+}
+
+footer .author{
+  font-size: 1.5rem;
+  position:absolute;
+  top:100%;
+  left:45%;
+}
+
+footer .author pre{
+  text-decoration: none;
+  font-family:'Merriweather';
+}
+footer:hover {
+  color:#fff;
+}
+[v-cloak] {
+    display: none;
+}
+
+.calculator{
+  border: 0.35rem solid #666666;
+  width: 34rem;
+  height: 40rem;
+  margin: 6rem auto;
+  text-align: center;
+  background-color: #b3b3b3;
+  font-size: 1.6rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border-radius: 1rem; 
+}
+.calculator .cal-border .cal-display {  
+    border: 0.1rem solid #666666;
+    background-color: #f5f8f8;
+    margin: 1.5rem 1rem;
+    height: 7rem;
+    width: 92.3%;
+    font-size: 2rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0.1rem 0.1rem 0.3rem #666666;
+    box-shadow: 0.1rem 0.1rem 0.3rem #666666;
+
+}
+.calculator .cal-border .cal-display:hover {
+    -webkit-box-shadow: 0.3rem 0.3rem 0.5rem #544141;
+    box-shadow: 0.3rem 0.3rem 0.5rem #544141;
+}
+
+.calculator .cal-border .cal-formula {
+    width: 100%;
+    height: 40%;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    color: #2a363b;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.calculator .cal-border .cal-result {
+    width: 100%;
+    height: 60%;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 1.5rem 1rem;
+    color: #ce3b3b;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.calculator .cal-border .cal-items {
+    margin: 3.5rem 1rem;
+    text-align: left;
+    width: 92.3%;
+    height: auto;
+}
+
+.calculator .cal-border .cal-items .cal-row-1,
+.calculator .cal-border .cal-items .cal-row-2,
+.calculator .cal-border .cal-items .cal-row-3,
+.calculator .cal-border .cal-items .cal-row-4,
+.calculator .cal-border .cal-items .cal-row-5 {
+    margin-bottom: 3%;
+    width: 100%
+}
+
+.calculator .cal-border .cal-items .cal-item {
+    border: 0.1rem solid #668cff;
+    width: 16.666%;
+    height: 4rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 4rem;
+    margin-right: 2%;
+    color: #2a363b;
+    cursor: pointer;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0.1rem 0.1rem 0.3rem #544141;
+    box-shadow: 0.1rem 0.1rem 0.3rem #544141;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+
+}
+
+.calculator .cal-border .cal-items .cal-item:hover {
+    color: #f1f5f7;
+    -webkit-box-shadow: 0.3rem 0.3rem 0.5rem #666666;
+    box-shadow: 0.3rem 0.3rem 0.5rem #666666;
+
+}
+
+.calculator .cal-border .cal-items .cal-item:active {
+    transform: translate(0.15rem, 0.15rem);
+    -moz-transform: translate(0.15rem, 0.15rem);
+    -webkit-transform: translate(0.15rem, 0.15rem);
+
+}
+
+
+
+.calculator .cal-border .cal-row-5 .cal-item:nth-child(3) {
+    width: 37.2%;
+}
+
+.calculator .cal-border .cal-row-1 .cal-item:nth-child(5),
+.calculator .cal-border .cal-row-2 .cal-item:nth-child(5),
+.calculator .cal-border .cal-row-3 .cal-item:nth-child(5),
+.calculator .cal-border .cal-row-4 .cal-item:nth-child(5),
+.calculator .cal-border .cal-row-5 .cal-item:nth-child(4) {
+    margin-right: 0;
+
+}
